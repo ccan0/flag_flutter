@@ -42,17 +42,17 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
               Flag.fromCode(
-                FlagsCode.KI,
+                FlagsCode.NULL,
                 height: 100,
               ),
               Flag.fromCode(
-                FlagsCode.AD,
+                FlagsCode.NULL,
                 height: 10,
                 width: 100,
                 fit: BoxFit.fill,
               ),
               Flag.fromCode(
-                FlagsCode.AD,
+                FlagsCode.NULL,
                 height: 50,
                 width: 50,
                 fit: BoxFit.fill,
@@ -61,8 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Flags.fromCode(
                 [
-                  FlagsCode.GB,
-                  FlagsCode.US,
+                  FlagsCode.NULL,
+                  FlagsCode.NULL,
                 ],
                 height: 100,
                 width: 100 * 4 / 3,
@@ -121,8 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 class FlagPicker extends StatefulWidget {
-  const FlagPicker({Key? key, this.width, this.height, this.preCache = false})
-      : super(key: key);
+  const FlagPicker({Key? key, this.width, this.height, this.preCache = false}) : super(key: key);
 
   final double? width;
   final double? height;

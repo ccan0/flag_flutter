@@ -53,7 +53,7 @@ class Flag extends StatelessWidget {
   ///              fit: BoxFit.fill,
   ///            ),
   /// ```
-  static const List<String> flagsCode = baseFlagsCode;
+  static const List<dynamic> flagsCode = baseBrands;
 
   /// Creates a flag widget.
   ///
@@ -101,8 +101,7 @@ class Flag extends StatelessWidget {
   Widget build(BuildContext context) {
     String countryName = country.toLowerCase();
     if (this.countryCode != FlagsCode.NULL) {
-      countryName =
-          EnumToString.convertToString(this.countryCode).toLowerCase();
+      countryName = EnumToString.convertToString(this.countryCode).toLowerCase();
     }
 
     String assetName = 'packages/flag/res/4x3/$countryName.svg';
@@ -136,7 +135,7 @@ class Flag extends StatelessWidget {
 
   static Future<void> preloadFlag({
     required BuildContext context,
-    List<String> flagList = flagsCode,
+    List<dynamic> flagList = flagsCode,
   }) async {
     for (final flag in flagList) {
       await precachePicture(

@@ -53,7 +53,7 @@ class Flags extends StatelessWidget {
   ///              fit: BoxFit.fill,
   ///            ),
   /// ```
-  static const List<String> flagsCode = baseFlagsCode;
+  static const List<dynamic> flagsCode = baseBrands;
 
   /// Creates a flag widget.
   ///
@@ -97,13 +97,9 @@ class Flags extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<String> countryNames =
-        this.counties.map((e) => e.toLowerCase()).toList();
+    List<String> countryNames = this.counties.map((e) => e.toLowerCase()).toList();
     if (this.countiyCodes.isNotEmpty) {
-      countryNames = this
-          .countiyCodes
-          .map((e) => EnumToString.convertToString(e).toLowerCase())
-          .toList();
+      countryNames = this.countiyCodes.map((e) => EnumToString.convertToString(e).toLowerCase()).toList();
     }
 
     List<Widget> flagWidgets = [];
