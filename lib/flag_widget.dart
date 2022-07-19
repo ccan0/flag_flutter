@@ -104,9 +104,9 @@ class Flag extends StatelessWidget {
       countryName = EnumToString.convertToString(this.countryCode).toLowerCase();
     }
 
-    String assetName = 'packages/flag/res/4x3/$countryName.svg';
+    String assetName = 'packages/flag/res/4x3/$country.svg';
     if (flagSize == FlagSize.size_1x1) {
-      assetName = 'packages/flag/res/1x1/$countryName.svg';
+      assetName = 'packages/flag/res/1x1/$country.svg';
     }
 
     if (!flagsCode.contains(countryName)) {
