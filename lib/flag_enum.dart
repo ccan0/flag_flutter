@@ -8,7 +8,7 @@ enum FlagSize {
 enum FlagsCode {
   NULL,
   Acura,
-  Romeo,
+  AlfaRomeo,
   AstonMartin,
   Audi,
   Bentley,
@@ -106,7 +106,7 @@ enum FlagsCode {
 const List<String> baseBrandsCode = [
   'NULL',
   'Acura',
-  'Romeo',
+  'AlfaRomeo',
   'AstonMartin',
   'Audi',
   'Bentley',
@@ -407,7 +407,7 @@ const List<dynamic> baseBrands = [
     {"_id": "6065e2fd7eca1a000f03684b", "brand": "Renault", "__v": 0}
   ],
   [
-    {"_id": "6065e3067eca1a000f03686a", "brand": "Rolls-Royce", "__v": 0}
+    {"_id": "6065e3067eca1a000f03686a", "brand": "Rolls Royce", "__v": 0}
   ],
   [
     {"_id": "6065e3077eca1a000f036870", "brand": "Rover", "__v": 0}
