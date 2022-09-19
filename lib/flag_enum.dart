@@ -224,7 +224,6 @@ const List<dynamic> baseBrandsCode = [
   "Pininfarina",
   "Seat",
   "SRT",
-  "MG",
   "Mini",
 ];
 
