@@ -139,7 +139,7 @@ const List<dynamic> baseBrandsCode = [
   "LadaVAZ",
   "Peugeot",
   "Pontiac",
-  "Ssang Yong",
+  "SsangYong",
   "GMC",
   "General Motors",
   "Kia",
