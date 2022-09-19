@@ -21,7 +21,6 @@ enum FlagsCode {
   Anadol,
   AlfaRomeo,
   Daihatsu,
-  AmericanMotorsCorporation,
   BYD,
   GAZ,
   Isuzu,
@@ -133,7 +132,6 @@ const List<dynamic> baseBrandsCode = [
   "Anadol",
   "Alfa Romeo",
   "Daihatsu",
-  "American Motors Corporation",
   "BYD",
   "GAZ",
   "Isuzu",
@@ -192,7 +190,7 @@ const List<dynamic> baseBrandsCode = [
   "Ford",
   "McLaren",
   "Skoda",
-  "Tofa?",
+  "Tofas",
   "Datsun",
   "Eagle",
   "Mitsubishi",
@@ -207,7 +205,7 @@ const List<dynamic> baseBrandsCode = [
   "Saturn",
   "Volga Associated Automobile",
   "Genesis",
-  "Mercedes-Benz",
+  "MercedesBenz",
   "Ram",
   "Suzuki",
   "Toyota",
@@ -713,7 +711,7 @@ const List<dynamic> baseBrands = [
   [
     {
       "_id": "62f3ab921bcd85a0732269a3",
-      "brand": "Tofa?",
+      "brand": "Tofas",
     },
   ],
   [
