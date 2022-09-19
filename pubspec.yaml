@@ -19,4 +19,3 @@ dev_dependencies:
 flutter:
   assets:
     - res/1x1/
-    - res/4x3/

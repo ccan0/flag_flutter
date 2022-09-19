@@ -1,6 +1,5 @@
 enum FlagSize {
   size_1x1,
-  size_4x3,
 }
 
 /// Flags Code Enum

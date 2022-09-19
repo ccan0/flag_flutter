@@ -34,7 +34,7 @@ class Flag extends StatelessWidget {
 
   /// This is the flag aspect ratio
   ///
-  /// Default value is [FlagSize.size_4x3]
+  /// Default value is [FlagSize.size_1x1]
   final FlagSize flagSize;
 
   final double? borderRadius;
@@ -67,7 +67,7 @@ class Flag extends StatelessWidget {
     this.width,
     this.fit = BoxFit.contain,
     this.replacement = const SizedBox.shrink(),
-    this.flagSize = FlagSize.size_4x3,
+    this.flagSize = FlagSize.size_1x1,
     this.borderRadius,
   })  : assert(
           countryCode != FlagsCode.NULL,
@@ -88,7 +88,7 @@ class Flag extends StatelessWidget {
     this.width,
     this.fit = BoxFit.contain,
     this.replacement = const SizedBox.shrink(),
-    this.flagSize = FlagSize.size_4x3,
+    this.flagSize = FlagSize.size_1x1,
     this.borderRadius,
   })  : assert(
           country != '',
@@ -104,10 +104,7 @@ class Flag extends StatelessWidget {
       countryName = EnumToString.convertToString(this.countryCode);
     }
 
-    String assetName = 'packages/flag/res/4x3/$countryName.svg';
-    if (flagSize == FlagSize.size_1x1) {
-      assetName = 'packages/flag/res/1x1/$countryName.svg';
-    }
+    String assetName = 'packages/flag/res/1x1/$countryName.svg';
 
     if (!flagsCode.contains(countryName)) {
       return replacement;
@@ -141,7 +138,7 @@ class Flag extends StatelessWidget {
       await precachePicture(
           ExactAssetPicture(
             SvgPicture.svgStringDecoderBuilder,
-            'packages/flag/res/4x3/$flag.svg',
+            'packages/flag/res/1x1/$flag.svg',
           ),
           context);
     }

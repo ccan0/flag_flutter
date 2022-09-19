@@ -34,7 +34,7 @@ class Flags extends StatelessWidget {
 
   /// This is the each flag aspect ratio
   ///
-  /// Default value is [FlagSize.size_4x3]
+  /// Default value is [FlagSize.size_1x1]
   final FlagSize flagSize;
 
   final double? borderRadius;
@@ -66,7 +66,7 @@ class Flags extends StatelessWidget {
     this.height = 300,
     this.width = 400,
     this.replacement = const SizedBox.shrink(),
-    this.flagSize = FlagSize.size_4x3,
+    this.flagSize = FlagSize.size_1x1,
     this.borderRadius,
   })  : assert(
           countiyCodes.length == 2,
@@ -86,7 +86,7 @@ class Flags extends StatelessWidget {
     this.height = 300,
     this.width = 400,
     this.replacement = const SizedBox.shrink(),
-    this.flagSize = FlagSize.size_4x3,
+    this.flagSize = FlagSize.size_1x1,
     this.borderRadius,
   })  : assert(
           counties.length == 2,
@@ -105,10 +105,7 @@ class Flags extends StatelessWidget {
     List<Widget> flagWidgets = [];
     for (int i = 0; i < countryNames.length; i++) {
       var countryName = countryNames[i];
-      String assetName = 'packages/flag/res/4x3/$countryName.svg';
-      if (flagSize == FlagSize.size_1x1) {
-        assetName = 'packages/flag/res/1x1/$countryName.svg';
-      }
+      String assetName = 'packages/flag/res/1x1/$countryName.svg';
 
       if (!flagsCode.contains(countryName)) {
         flagWidgets.add(replacement);

@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 358.1 358.1" style="enable-background:new 0 0 358.1 358.1;" xml:space="preserve" width="20px" height="20px">
-<g>
-	<path d="M90.5,0v358.1h176.4V0H90.5L90.5,0z M257.8,349H99.5V9h158.3L257.8,349L257.8,349z"/>
-	<polygon points="115.4,25.1 172.1,25.1 172.1,178.8 115.5,247.9 	"/>
-	<polygon points="241.8,25.1 185.2,25.1 185.2,178.8 241.8,247.9 	"/>
-	<polygon points="115.5,274.9 115.4,333.3 172.1,333.3 172.1,220.4 	"/>
-	<polygon points="241.8,274.9 241.3,333.3 185.2,333.3 185.2,220.4 	"/>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_10704_19384)">
+<path d="M16.1758 0V64H47.7022V0H16.1758ZM46.0758 62.3736H17.7843V1.60849H46.0758V62.3736Z" fill="black"/>
+<path d="M20.625 4.48633H30.7585V31.9557L20.6429 44.3054L20.625 4.48633Z" fill="black"/>
+<path d="M43.2172 4.48633H33.1016V31.9557L43.2172 44.3054V4.48633Z" fill="black"/>
+<path d="M20.6429 49.1309L20.625 59.5682H30.7585V39.3906L20.6429 49.1309Z" fill="black"/>
+<path d="M43.2172 49.1309L43.1278 59.5682H33.1016V39.3906L43.2172 49.1309Z" fill="black"/>
 </g>
+<defs>
+<clipPath id="clip0_10704_19384">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
 </svg>
