@@ -112,6 +112,7 @@ enum FlagsCode {
   Seat,
   Srt,
   Mini,
+  MG,
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -172,7 +173,7 @@ const List<dynamic> baseBrandsCode = [
   "McLaren Automotive",
   "Renault",
   "Subaru",
-  "Great Wall",
+  "GreatWall",
   "Hyundai",
   "Maserati",
   "Saab",
@@ -223,6 +224,7 @@ const List<dynamic> baseBrandsCode = [
   "Pininfarina",
   "Seat",
   "SRT",
+  "MG",
   "Mini",
 ];
 
