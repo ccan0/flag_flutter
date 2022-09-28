@@ -26,7 +26,7 @@ enum FlagsCode {
   Haval,
   Isuzu,
   LadaVAZ,
-  FWA,
+  Fwa,
   Peugeot,
   Pontiac,
   SsangYong,
@@ -116,7 +116,7 @@ enum FlagsCode {
   Spyker,
   Srt,
   Mini,
-  Mg,
+  mg,
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -183,7 +183,7 @@ const List<dynamic> baseBrandsCode = [
   "Haval",
   "Hyundai",
   "Ikco",
-  "FWA",
+  "Fwa",
   "Maserati",
   "Saab",
   "Yugo",
@@ -227,7 +227,7 @@ const List<dynamic> baseBrandsCode = [
   "Dodge",
   "Honda",
   "LandRover",
-  "Mg",
+  "mg",
   "Opel",
   "Pininfarina",
   "Seat",
