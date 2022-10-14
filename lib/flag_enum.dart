@@ -167,8 +167,8 @@ const List<dynamic> baseBrandsCode = [
   "Lexus",
   "Marussia",
   "Tata",
-  "Smart"
-      "Volkswagen",
+  "Smart",
+  "Volkswagen",
   "Volvo",
   "Dongfeng",
   "Geo",
