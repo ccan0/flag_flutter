@@ -154,8 +154,8 @@ const List<dynamic> baseBrandsCode = [
   "Lifan",
   "RollsRoyce",
   "Scion",
-  "Lotus"
-      "Shelby",
+  "Lotus",
+  "Shelby",
   "Maybach",
   "Merkur",
   "Saleen Performance",
